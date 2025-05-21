@@ -1,73 +1,66 @@
-# Welcome to your Lovable project
+Échos du Futur” – Un site vitrine qui répond à vos messages… dans le futur
+🎯 Concept
+Un site vitrine artistique ou personnel où vous laissez un message au futur (à vous-même, à la marque, à un inconnu), et où vous recevrez une réponse plus tard… automatiquement générée ou par un autre visiteur.
 
-## Project info
+Il mélange :
 
-**URL**: https://lovable.dev/projects/da948861-5741-4a6f-8cd5-2a2b3bca4da4
+Temporalité inversée
 
-## How can I edit this code?
+Écriture émotionnelle
 
-There are several ways of editing your application.
+Expérience collaborative décalée
 
-**Use Lovable**
+🔍 Comment ça fonctionne
+L’utilisateur entre sur un site épuré et immersif.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/da948861-5741-4a6f-8cd5-2a2b3bca4da4) and start prompting.
+On lui propose une phrase comme :
 
-Changes made via Lovable will be committed automatically to this repo.
+“Laissez un écho dans le futur. Écrivez quelque chose que vous aimeriez qu’on vous réponde un jour.”
 
-**Use your preferred IDE**
+L’utilisateur écrit un court message (texte, émotion, question, rêve…).
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Le site l’enregistre et ne montre rien tout de suite.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Quelques jours plus tard (ou à la prochaine visite), il reçoit :
 
-Follow these steps:
+Soit une réponse générée par une IA poétique
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Soit une réponse écrite par un autre visiteur (de manière anonyme)
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Soit un “écho” visuel/audio basé sur son message
 
-# Step 3: Install the necessary dependencies.
-npm i
+💡 Pourquoi c’est unique
+L’expérience se déroule dans le temps, pas instantanément
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Le site devient une boîte à lettres intertemporelle
 
-**Edit a file directly in GitHub**
+Contenu évolutif, vivant, créé par les utilisateurs eux-mêmes
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Mélange d’art, d’intimité et de mystère
 
-**Use GitHub Codespaces**
+Le site vitrine ne vend rien, il crée un lien invisible entre les gens
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+🖥️ Cas d’usage
+Portfolio d’un artiste numérique ou écrivain
 
-## What technologies are used for this project?
+Projet personnel autour de l’introspection, du souvenir ou de la spiritualité
 
-This project is built with:
+Site expérimental pour une ONG ou un collectif créatif
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Version entreprise : les utilisateurs laissent des idées pour le futur de la marque
 
-## How can I deploy this project?
+🔧 Technos possibles
+Frontend : Next.js + Tailwind + Framer Motion (pour l’interface fluide et épurée)
 
-Simply open [Lovable](https://lovable.dev/projects/da948861-5741-4a6f-8cd5-2a2b3bca4da4) and click on Share -> Publish.
+Backend : Node.js + MongoDB (stockage des messages et réponses)
 
-## Can I connect a custom domain to my Lovable project?
+Optionnel : API OpenAI pour réponses créatives IA
 
-Yes, you can!
+Notifications programmées (emails ou notifications push) pour recevoir l’écho futur
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+✍️ Exemple d’interaction :
+Vous avez écrit le 21 mai 2025 :
+“Est-ce que je serai toujours aussi perdu dans un an ?”
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Écho reçu le 29 mai 2025 :
+“Tu n’étais pas perdu. Tu étais juste en train de chercher le bon paysage. Continue.”
