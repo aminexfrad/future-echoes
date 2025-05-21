@@ -171,7 +171,7 @@ const Index = () => {
               <Button 
                 variant="outline" 
                 onClick={toggleEchoes}
-                className="border-white/30 text-white hover:bg-white/20 transition-colors group"
+                className=" hover:bg-white/20 transition-colors group"
               >
                 {showEchoes ? "Masquer les échos" : "Voir les échos récents"}
                 <span className={`ml-2 transition-transform duration-300 ${showEchoes ? 'rotate-180' : ''}`}>▼</span>
